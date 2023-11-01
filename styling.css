@@ -1,0 +1,81 @@
+html,body {
+}
+
+
+*	{
+	font-family:Montserrat, Arial, san-serif;
+	}
+
+p.myname	{
+	font-family:Montserrat, Arial, san-serif;
+	font-size:280%;
+	color:white;
+	
+	}
+
+.black {
+	background-color:black;
+	border:0px solid coral;
+	border-spacing:0px;
+	margin:0px;
+	padding:0px 50px 0px 250px; 
+	z-index:50;
+	}
+
+div.sticky {
+	position:-webkit-sticky; /* Safari */
+	position:sticky;
+	top:0;
+	}
+
+div.jazz {
+	background-image:url("jazz.gif");
+	z-index:0;
+	}
+
+.headerbutton {
+	z-index:30;
+	display:flex;
+	flex-direction:column;
+	border:0px;
+	background-color:red;
+	width:100px;
+	height:150px;
+	margin:0px 10px;
+	margin-left:auto;
+	order:2;
+	text-align:center;
+	color:white;
+	}
+	
+.headerbutton:hover {
+	background-color:white;
+	}
+
+.headerbuttonextension {
+	z-index:29;
+	display:flex;
+	flex-direction:column;
+	border:0px;
+	width:100px;
+	margin:0px 10px;
+	margin-left:auto;
+	order:2;
+	}
+
+.text {
+	background-color:rgba(255, 255, 255, 0.9);
+	padding:50px;
+	width:60%;
+	margin:20px 0px;
+	}
+
+.link {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	}
+}  
