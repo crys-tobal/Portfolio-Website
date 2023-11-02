@@ -22,7 +22,7 @@ p.myname	{
 	z-index:50;
 	}
 
-div.sticky {
+.sticky {
 	position:-webkit-sticky; /* Safari */
 	position:sticky;
 	top:0;
@@ -78,4 +78,8 @@ div.jazz {
 	left:0;
 	z-index:1;
 	}
+	
+.carouselsize {
+	width:900px;
+	height:720px;
 }  
