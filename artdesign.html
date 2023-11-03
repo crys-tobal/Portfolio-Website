@@ -3,9 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title>Cristobal Portfolio</title>
-	<link rel="stylesheet" href="styling.css">
+	<title>Art Design</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styling.css">
 	
 	<style>
 
@@ -15,25 +20,24 @@
 
 <body>	
 	
-	<div class="sticky black" style="display:flex; flex-direction:row;"> <!-- Header bar -->
-		<button style="display:inline-box; background-color:red;" class="headerbutton">
-			<div style="margin-top:60px;">Architecture</div>
-		</button>
-		<button style="display:inline-box; background-color:green;" class="headerbutton">
-			<div style="margin-top:60px;">Art + Design</div>
-		</button>
-		<button style="display:inline-box; background-color:blue;" class="headerbutton">
-			<div style="margin-top:50px;">Web Development</div>
-		</button>
-		<header style="width:60%;">
-			<p class="myname">
-				Art + Design
-				<a href="index.html">
-					<span class="link"></span>
-				</a>
-			</p>
-		</header>
-	</div>
+	<nav class="sticky black" style="display:flex; flex-direction:row;"> 
+			<button onclick="location.href='architecture.html';" class="btn headerbutton red">
+					Architecture
+			</button>
+		
+			<button onclick="location.href='artdesign.html';" class="btn headerbutton green">
+					Art + Design
+			</button>
+
+			<button onclick="location.href='webdev.html';" class="btn headerbutton blue">
+					Web<br>Development
+			</button>
+		
+		
+			<header style="width:60%;" class="myname">
+					Art + Design
+			</header>
+	</nav> <!-- Navigation bar -->
 	
 	
 	<div style="position:relative; height:2500px;" class="jazz"> <!-- Body -->
@@ -44,12 +48,7 @@
 		
 		<div style="opacity:0.7;  margin:20px 50px;">	
 			<div>	
-				<video autoplay loop muted style="width:1280px;">
-					<source src="Genshin Impact 2023.03.15 - 15.05.37.02.DVR.mp4" type="video/mp4" />
-					<source src="movie.ogg" type="video/ogg" />
-					Your browser does not support the video tag.
-					<img src="be mov 2.gif" width="1280">
-				</video>
+				<img src="be mov 2.gif" width="1280">
 			</div>
 		</div>	
 		
