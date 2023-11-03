@@ -40,6 +40,7 @@ div.jazz {
 	text-align:center;
 	color:white;
 	text-align:center;
+	padding-top:1.5%;
 	display:inline-box; 
 	border-radius:0px;
 	}
@@ -79,7 +80,9 @@ div.jazz {
 
 .red {
 	background-color:red;
+	margin-left:40%;
 	}
+	
 	
 .green {
 	background-color:green;
@@ -87,6 +90,7 @@ div.jazz {
 	
 .blue {
 	background-color:blue;
+	padding-top:0.8%;
 	}
 
 .black {
