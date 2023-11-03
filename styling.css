@@ -1,25 +1,20 @@
 html,body {
 }
 
+body{
+	background-image:url("jazz.gif");
+	background-attachment:fixed;
+	}
 
 *	{
 	font-family:Montserrat, Arial, san-serif;
 	}
 
-p.myname	{
+.myname	{
 	font-family:Montserrat, Arial, san-serif;
-	font-size:280%;
+	font-size:300%;
 	color:white;
 	
-	}
-
-.black {
-	background-color:black;
-	border:0px solid coral;
-	border-spacing:0px;
-	margin:0px;
-	padding:0px 50px 0px 250px; 
-	z-index:50;
 	}
 
 .sticky {
@@ -38,7 +33,6 @@ div.jazz {
 	display:flex;
 	flex-direction:column;
 	border:0px;
-	background-color:red;
 	width:100px;
 	height:150px;
 	margin:0px 10px;
@@ -46,10 +40,9 @@ div.jazz {
 	order:2;
 	text-align:center;
 	color:white;
-	}
-	
-.headerbutton:hover {
-	background-color:white;
+	text-align:center;
+	display:inline-box; 
+	border-radius:0px;
 	}
 
 .headerbuttonextension {
@@ -80,6 +73,32 @@ div.jazz {
 	}
 	
 .carouselsize {
-	width:900px;
+	width:100%;
 	height:720px;
-}  
+	opacity:0.8;
+	}  
+
+button.padding {
+	padding:auto;
+	}
+
+.red {
+	background-color:red;
+	}
+	
+.green {
+	background-color:green;
+	}
+	
+.blue {
+	background-color:blue;
+	}
+
+.black {
+	background-color:black;
+	border:0px solid coral;
+	border-spacing:0px;
+	margin:0px;
+	padding:0px 50px 0px 250px; 
+	z-index:50;
+	}
